@@ -1,3 +1,7 @@
+#!/usr/bin/env node
+
+"use strict";
+
 const {writeFileSync} = require("fs");
 const {execSync} = require("child_process");
 const pkgTemplate = require("../templates/package.json");

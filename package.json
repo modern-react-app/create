@@ -1,8 +1,11 @@
 {
   "name": "@modern-react-app/create",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Set up a modern React app by running one command.",
   "main": "bin/index.js",
+  "bin": {
+    "create": "bin/index.js"
+  },
   "scripts": {
   },
   "repository": {
