@@ -1,0 +1,16 @@
+{
+  "name": "app-name",
+  "version": "0.1.0",
+  "scripts": {
+    "react-scripts": "@modern-react-app/scripts",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "preview": "react-scripts preview",
+    "test": "react-scripts test",
+    "lint": "react-scripts lint",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "@modern-react-app/scripts": "0.0.1"
+  }
+}

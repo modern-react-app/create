@@ -1,0 +1,25 @@
+{
+  "name": "@modern-react-app/create",
+  "version": "0.1.0",
+  "description": "Set up a modern React app by running one command.",
+  "main": "bin/index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/modern-react-app/create.git"
+  },
+  "keywords": [
+    "@modern-react-app",
+    "modern-react-app",
+    "@modern-react-app/create",
+    "@modern-react-app/scripts",
+    "react"
+  ],
+  "author": "Ahmed Kamal <info@ahmedmkamal.com> (https://ahmedmkamal.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/modern-react-app/create/issues"
+  },
+  "homepage": "https://github.com/modern-react-app/create#readme"
+}
