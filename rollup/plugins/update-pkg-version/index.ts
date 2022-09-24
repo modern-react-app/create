@@ -10,6 +10,7 @@ export function updatePkgVersion(): Plugin {
     return {
         name: "update-pkg-version",
         async closeBundle() {
+            if (process.env["CI"] === "true") return;
             const { name, version, ...pkg } = require("package.json");
             const newVer = inc(version, "minor");
             const newPkg = { name, version: newVer, ...pkg };
