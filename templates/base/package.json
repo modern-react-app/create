@@ -1,6 +1,8 @@
 {
-  "name": "app-name",
+  "name": "{{app-name}}",
+  "description": "",
   "version": "0.1.0",
+  "private": true,
   "scripts": {
     "start": "modern-react-scripts start",
     "build": "modern-react-scripts build",
